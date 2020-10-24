@@ -6,12 +6,17 @@
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\KhanhLQ.Common\KhanhLQ.Common.csproj" />
     <ProjectReference Include="..\KhanhLQ.Data\KhanhLQ.Data.csproj" />
     <ProjectReference Include="..\KhanhLQ.Service\KhanhLQ.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\" />
   </ItemGroup>
 
 </Project>
